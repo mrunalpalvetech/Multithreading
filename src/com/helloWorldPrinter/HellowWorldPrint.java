@@ -8,7 +8,7 @@ public class HellowWorldPrint implements Runnable{
 
     @Override
     public void run() {
-        System.out.println("Hellow world printer is printing " + Thread.currentThread().getName());
+        System.out.println("Hello world printer is printing " + Thread.currentThread().getName());
         doSomething();
     }
 }
