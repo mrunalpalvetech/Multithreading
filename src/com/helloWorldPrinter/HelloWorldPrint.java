@@ -1,6 +1,6 @@
 package com.helloWorldPrinter;
 
-public class HellowWorldPrint implements Runnable{
+public class HelloWorldPrint implements Runnable{
 
     public void doSomething(){
         System.out.println("Something " + Thread.currentThread().getName());

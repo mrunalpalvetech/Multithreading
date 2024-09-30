@@ -15,7 +15,7 @@ Main Function main
 Something Thread-0*/
 
         for(int i = 1; i <= 100; i++) {
-            AsyncNumberPrinter asyncNumberPrinter = new AsyncNumberPrinter(i);
+            ConcurentNumberPrinter asyncNumberPrinter = new ConcurentNumberPrinter(i);
             Thread t = new Thread(asyncNumberPrinter);
             t.start();
         }
